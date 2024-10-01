@@ -39,8 +39,8 @@ importers:
         specifier: ^0.0.6
         version: 0.0.6
       '@layerstack/tailwind':
-        specifier: ^0.0.7
-        version: 0.0.7
+        specifier: ^0.0.8
+        version: 0.0.8
       '@layerstack/utils':
         specifier: ^0.0.5
         version: 0.0.5
@@ -73,8 +73,8 @@ importers:
         specifier: ^0.0.6
         version: 0.0.6
       '@layerstack/tailwind':
-        specifier: ^0.0.7
-        version: 0.0.7
+        specifier: ^0.0.8
+        version: 0.0.8
       '@layerstack/utils':
         specifier: ^0.0.5
         version: 0.0.5
@@ -132,7 +132,7 @@ importers:
         version: 0.4.0(tailwindcss@3.4.13)
       '@sveltejs/adapter-cloudflare':
         specifier: ^4.7.2
-        version: 4.7.2(@sveltejs/kit@2.6.1(@sveltejs/vite-plugin-svelte@3.1.2(svelte@4.2.19)(vite@5.4.8(@types/node@22.7.4)))(svelte@4.2.19)(vite@5.4.8(@types/node@22.7.4)))(wrangler@3.78.12)
+        version: 4.7.2(@sveltejs/kit@2.6.1(@sveltejs/vite-plugin-svelte@3.1.2(svelte@4.2.19)(vite@5.4.8(@types/node@22.7.4)))(svelte@4.2.19)(vite@5.4.8(@types/node@22.7.4)))(wrangler@3.79.0)
       '@sveltejs/kit':
         specifier: ^2.6.1
         version: 2.6.1(@sveltejs/vite-plugin-svelte@3.1.2(svelte@4.2.19)(vite@5.4.8(@types/node@22.7.4)))(svelte@4.2.19)(vite@5.4.8(@types/node@22.7.4))
@@ -706,8 +706,8 @@ packages:
   '@layerstack/svelte-table@0.0.6':
     resolution: {integrity: sha512-v1SD7kL5Qm07yQC6MLm8EYwM2GL1enyceNMA9EPn92MmlHncCmdvq6tRlvCZKMbMuvU/dLCNxLSiFfHyYxLihQ==}
 
-  '@layerstack/tailwind@0.0.7':
-    resolution: {integrity: sha512-mMdE0vbw0NXi0/mkymJNR/YsADi9o8haQniacuuI/9Eg+TBlQvWFogmO8fJM7+15Eox8b7nG7npv5bi4Lsn2xA==}
+  '@layerstack/tailwind@0.0.8':
+    resolution: {integrity: sha512-89f1yTL/GEgLT5AzzRLhj//kjx/E5l1Bn1risOO5f7X6U35+FJL0F3yZDa3EfJ6w44EP1vujpHtDBcWsl1RNUA==}
 
   '@layerstack/utils@0.0.5':
     resolution: {integrity: sha512-Ew84WuCMC3q7Wq0Tb0rBEM/WK2RkkxRBF/RvNcnbaWcj5O+jO6VEZc657Jv73skkIJ4fkciT8FhSIcHoRkhdrQ==}
@@ -2427,6 +2427,16 @@ packages:
       '@cloudflare/workers-types':
         optional: true
 
+  wrangler@3.79.0:
+    resolution: {integrity: sha512-29wzQWc5qNKtD3bSyAEX11j/U5IIk8xy2/ZJ4wljJlS5ppff8qGqI+LtlLmqjqTSeQqFLb87xRkms0YFUgNLXg==}
+    engines: {node: '>=16.17.0'}
+    hasBin: true
+    peerDependencies:
+      '@cloudflare/workers-types': ^4.20240925.0
+    peerDependenciesMeta:
+      '@cloudflare/workers-types':
+        optional: true
+
   wrap-ansi@7.0.0:
     resolution: {integrity: sha512-YVGIj2kamLSTxw6NsZjoBxfSwsn0ycdesmc4p+Q21c5zPuZ1pl+NfxVdxPtdHvmNVOQ6XSYG4AUtyt/Fi7D16Q==}
     engines: {node: '>=10'}
@@ -2914,7 +2924,7 @@ snapshots:
       date-fns: 4.1.0
       lodash-es: 4.17.21
 
-  '@layerstack/tailwind@0.0.7':
+  '@layerstack/tailwind@0.0.8':
     dependencies:
       '@layerstack/utils': 0.0.5
       clsx: 2.1.1
@@ -3042,13 +3052,13 @@ snapshots:
     dependencies:
       tailwindcss: 3.4.13
 
-  '@sveltejs/adapter-cloudflare@4.7.2(@sveltejs/kit@2.6.1(@sveltejs/vite-plugin-svelte@3.1.2(svelte@4.2.19)(vite@5.4.8(@types/node@22.7.4)))(svelte@4.2.19)(vite@5.4.8(@types/node@22.7.4)))(wrangler@3.78.12)':
+  '@sveltejs/adapter-cloudflare@4.7.2(@sveltejs/kit@2.6.1(@sveltejs/vite-plugin-svelte@3.1.2(svelte@4.2.19)(vite@5.4.8(@types/node@22.7.4)))(svelte@4.2.19)(vite@5.4.8(@types/node@22.7.4)))(wrangler@3.79.0)':
     dependencies:
       '@cloudflare/workers-types': 4.20240903.0
       '@sveltejs/kit': 2.6.1(@sveltejs/vite-plugin-svelte@3.1.2(svelte@4.2.19)(vite@5.4.8(@types/node@22.7.4)))(svelte@4.2.19)(vite@5.4.8(@types/node@22.7.4))
       esbuild: 0.21.5
       worktop: 0.8.0-next.18
-      wrangler: 3.78.12
+      wrangler: 3.79.0
 
   '@sveltejs/kit@2.6.1(@sveltejs/vite-plugin-svelte@3.1.2(svelte@4.2.19)(vite@5.4.8(@types/node@22.7.4)))(svelte@4.2.19)(vite@5.4.8(@types/node@22.7.4))':
     dependencies:
@@ -4607,6 +4617,32 @@ snapshots:
       regexparam: 3.0.0
 
   wrangler@3.78.12:
+    dependencies:
+      '@cloudflare/kv-asset-handler': 0.3.4
+      '@cloudflare/workers-shared': 0.5.4
+      '@esbuild-plugins/node-globals-polyfill': 0.2.3(esbuild@0.17.19)
+      '@esbuild-plugins/node-modules-polyfill': 0.2.2(esbuild@0.17.19)
+      blake3-wasm: 2.1.5
+      chokidar: 3.6.0
+      esbuild: 0.17.19
+      miniflare: 3.20240925.0
+      nanoid: 3.3.7
+      path-to-regexp: 6.3.0
+      resolve: 1.22.8
+      resolve.exports: 2.0.2
+      selfsigned: 2.4.1
+      source-map: 0.6.1
+      unenv: unenv-nightly@2.0.0-20240919-125358-9a64854
+      workerd: 1.20240925.0
+      xxhash-wasm: 1.0.2
+    optionalDependencies:
+      fsevents: 2.3.3
+    transitivePeerDependencies:
+      - bufferutil
+      - supports-color
+      - utf-8-validate
+
+  wrangler@3.79.0:
     dependencies:
       '@cloudflare/kv-asset-handler': 0.3.4
       '@cloudflare/workers-shared': 0.5.4
